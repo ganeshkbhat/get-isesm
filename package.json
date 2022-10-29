@@ -161,6 +161,20 @@
     "isesm",
     "find-file-type",
     "find-esm",
-    "check-esm"
+    "check-esm",
+    "is-file-esm",
+    "is-esm",
+    "check-esm",
+    "check-type",
+    "check-module-type",
+    "check-module-ext",
+    "check module ext",
+    "check file ext",
+    "find-esm",
+    "find-type",
+    "find-module-type",
+    "find-module-ext",
+    "find module ext",
+    "find file ext"
   ]
 }
