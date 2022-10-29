@@ -1,0 +1,32 @@
+{
+  "name": "isesm",
+  "version": "0.0.1",
+  "description": "Javascript functions to check if the file is a ES Module or a CJS/ JS Module or Script",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "\"mocha --reporter spec --recursive --experimental-loader=./loader.mjs\""
+  },
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshkbhat/isesm.git"
+  },
+  "author": "Ganesh B",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ganeshkbhat/isesm/issues"
+  },
+  "homepage": "https://github.com/ganeshkbhat/isesm#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0",
+    "safe-regex": "^2.1.1",
+    "sinon": "^14.0.1"
+  }
+}
