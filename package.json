@@ -26,10 +26,10 @@
   "devDependencies": {
     "chai": "^4.3.6",
     "mocha": "^10.1.0",
+    "nsp": "^3.2.1",
+    "nsp-api": "^1.0.3",
     "safe-regex": "^2.1.1",
-    "sinon": "^14.0.1"
-  },
-  "dependencies": {
-    
+    "sinon": "^14.0.1",
+    "unimported": "^1.22.0"
   }
 }
