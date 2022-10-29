@@ -3,7 +3,7 @@
  * Package: 
  * Author: Ganesh B
  * Description: JS functions to check if the file is a ES Module or a CJS/ JS Module or Script
- * Install: npm i  --save
+ * Install: npm i check-esm --save
  * Github: https://github.com/ganeshkbhat/isesm
  * npmjs Link: 
  * File: index.mjs
