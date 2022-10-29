@@ -157,6 +157,10 @@
     "check file type",
     "file type",
     "module type",
-    "package type"
+    "package type",
+    "isesm",
+    "find-file-type",
+    "find-esm",
+    "check-esm"
   ]
 }
