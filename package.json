@@ -1,5 +1,5 @@
 {
-  "name": "isesm",
+  "name": "check-esm",
   "version": "0.0.1",
   "description": "Javascript functions to check if the file is a ES Module or a CJS/ JS Module or Script",
   "main": "index.js",
@@ -28,5 +28,8 @@
     "mocha": "^10.1.0",
     "safe-regex": "^2.1.1",
     "sinon": "^14.0.1"
+  },
+  "dependencies": {
+    
   }
 }
