@@ -27,4 +27,10 @@ import * as isesm from "./index.js";
 
 export default isesm;
 
+export {
+    _getRoot, _getPackageJsonRoot, _checkModuleImports,
+    _requiresObject, _requireRegex, _importRegex, _importESRegex,
+    _importRegexExtended, _isESMFileExtension, _isESMCodeBase,
+    _isCJSCodeBase, _isESCode, _isModuleInPackageJson
+};
 
