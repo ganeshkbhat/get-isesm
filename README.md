@@ -1,6 +1,10 @@
 # check-esm
 Javascript functions to check if the file is a ES Module or a CJS/ JS Module or Script
 
+
+---
+
+
 There are other script APIs you may wish to explore that includes the following:
 
 `_checkModuleImports` : Check if a module can be imported.
