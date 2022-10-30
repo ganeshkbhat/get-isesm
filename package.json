@@ -176,5 +176,8 @@
     "find-module-ext",
     "find module ext",
     "find file ext"
-  ]
+  ],
+  "dependencies": {
+    "get-imported": "^0.0.4"
+  }
 }
