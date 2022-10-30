@@ -4,6 +4,11 @@ Javascript functions to check if the file is a ES Module or a CJS/ JS Module or 
 
 ---
 
+INSTALL:
+
+```npm install check-esm --save```
+
+---
 
 There are other script APIs you may wish to explore that includes the following:
 
