@@ -224,7 +224,12 @@ function _isCJSCodeBase(absPath) {
  * @return {*} 
  */
 function _isESCode(absPath) {
-    if (!_isCJSCodeBase(absPath) || !!_isESMCodeBase(absPath)) return true;
+    // has require
+    // has import()
+    // has import from ""
+    // has mjs, cjs, js extension
+    // 
+    if ((!_isCJSCodeBase(absPath) || !!_isESMCodeBase(absPath)) && (!_requireRegex(absPath))) return true;
     return false;
 }
 
