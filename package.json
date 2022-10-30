@@ -1,6 +1,6 @@
 {
   "name": "check-esm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Javascript functions to check if the file is a ES Module or a CJS/ JS Module or Script",
   "main": "index.js",
   "directories": {
