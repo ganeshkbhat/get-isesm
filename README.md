@@ -16,10 +16,10 @@ Javascript functions to check if the node.js file is a ES Module or a CJS/ JS Mo
 ### USAGE
 
 
-ESM Module : `import { _isESCode } from "../index.mjs";`
+ESM Module : `import { _isESCode } from "check-esm";`
 
 
-CommonJS Script/ Module : `const checkEsm = require("../index.js");`
+CommonJS Script/ Module : `const checkEsm = require("check-esm");`
 
 
 `isESCode("./path/to/file.mjs")`
