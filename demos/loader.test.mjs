@@ -5,7 +5,7 @@ import * as fs from "fs";
 import console from 'console';
 
 
-if (globalThis.loadedURLs) {
+if (!!globalThis.loadedURLs.length) {
     for (let p of globalThis.loadedURLs) {
         console.log("globalThis.loadedURLs: ", p);
     }
