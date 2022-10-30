@@ -10,3 +10,10 @@ if (!!globalThis.loadedURLs.length) {
         console.log("globalThis.loadedURLs: ", p);
     }
 }
+
+if (!!globalThis.loadedURLs) {
+    for (let p of globalThis.loadedURLs) {
+        console.log("globalThis.loadedURLs: ", p);
+    }
+}
+
