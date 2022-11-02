@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/ganeshkbhat/isesm#readme",
   "devDependencies": {
+    "@types/node": "^18.11.9",
     "chai": "^4.3.6",
+    "hpp": "^0.2.3",
     "mocha": "^10.1.0",
     "nsp": "^3.2.1",
     "nsp-api": "^1.0.3",
