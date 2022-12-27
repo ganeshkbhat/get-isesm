@@ -2,6 +2,9 @@
 Javascript functions to check if the node.js file is a ES Module or a CJS/ JS Module or Script
 
 
+Find the demos in the [demos folder](./demos)
+
+
 ---
 
 
@@ -92,3 +95,13 @@ There are other script APIs you may wish to explore that includes the following:
 
 ---
 
+
+
+### Contributions
+
+Contributions, Feature Improvements, Bugs, and Issues are invited. [raising an issue](https://github.com/ganeshkbhat/get-isesm/issues)
+
+
+# License
+
+[MIT License](./LICENSE)
