@@ -42,7 +42,7 @@ isESCode("./path/to/file.mjs")
 
 There are other script APIs you may wish to explore that includes the following:
 
-## `.checkModuleImports` 
+#### `.checkModuleImports` 
 Check if a module can be imported using `import()`
 
 Usage:
@@ -51,7 +51,7 @@ Usage:
 
 
 
-## `.requiresObject`
+#### `.requiresObject`
 Check require.cache list in code - used in your code's process global context.
 
 Usage:
@@ -60,7 +60,7 @@ Usage:
 
 
 
-## `.requireRegex`
+#### `.requireRegex`
 Check to see if there are `require()` syntax in code.
 
 Usage:
@@ -71,7 +71,7 @@ Usage:
 
 
 
-## `.importRegex`
+#### `.importRegex`
 Check to see if there are `import()` syntax in code.
 
 Usage:
@@ -82,7 +82,7 @@ Usage:
 
 
 
-## `.importESRegex`
+#### `.importESRegex`
 Check to see if there are `import x from ""` syntax in code.
 
 Usage:
@@ -93,7 +93,7 @@ Usage:
 
 
 
-## `.importRegexExtended`
+#### `.importRegexExtended`
 Check to see if there are `import()` syntax in code.
 
 Usage:
@@ -104,7 +104,7 @@ Usage:
 
 
 
-## `.isESMFileExtension`
+#### `.isESMFileExtension`
 Check to see if the file has `.mjs`/ `.cjs`/ `.js` extension.
 
 Usage:
@@ -113,7 +113,7 @@ Usage:
 
 
 
-## `.isNodeCompatibleFileExtension`
+#### `.isNodeCompatibleFileExtension`
 Check to see if the file has `.mjs`/ `.cjs`/ `.js` / `.node` / `.wasm` extension.
 
 Usage:
@@ -122,7 +122,7 @@ Usage:
 
 
 
-## `.isESMCodeBase`
+#### `.isESMCodeBase`
 Check to see if the code is ESM Module.
 
 Usage:
@@ -131,7 +131,7 @@ Usage:
 
 
 
-## `isCJSCodeBase`
+#### `isCJSCodeBase`
 Check to see if the code is CommonJS Script or Module.
 
 Usage:
@@ -140,7 +140,7 @@ Usage:
 
 
 
-## `isModuleInPackageJson`
+#### `isModuleInPackageJson`
 Checks type key's value in package.json.
 
 Usage:
@@ -149,7 +149,7 @@ Usage:
 
 
 
-## `isESCode`
+#### `isESCode`
 Multiple checks to check if the code is ESM Module (other than package.json type key's value check in package.json).
 
 Usage:
