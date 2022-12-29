@@ -1,7 +1,7 @@
 {
   "name": "check-esm",
-  "version": "0.0.42",
-  "description": "Javascript functions to check if the file is a ES Module or a CJS/ JS Module or Script",
+  "version": "0.0.7",
+  "description": "The module has JS functions to check all imports or required modules and check if the file is a ES Module or a CJS/ JS Module or Script",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -180,6 +180,6 @@
     "find file ext"
   ],
   "dependencies": {
-    "get-imported": "^0.0.4"
+    "get-imported": "^0.0.7"
   }
 }

@@ -2,10 +2,10 @@
  * 
  * Package: 
  * Author: Ganesh B
- * Description: JS functions to check if the file is a ES Module or a CJS/ JS Module or Script
- * Install: npm i  --save
- * Github: https://github.com/ganeshkbhat/isesm
- * npmjs Link: 
+ * Description: JS functions to check all imports or required modules and check if the file is a ES Module or a CJS/ JS Module or Script
+ * Install: npm i get-imported --save
+ * Github: https://github.com/ganeshkbhat/get-imports
+ * npmjs Link: https://www.npmjs.com/package/get-imported
  * File: demos/parser.require.cache.js
  * File Description: 
  * 
@@ -16,8 +16,8 @@
 'use strict';
 
 const path = require('path');
-const someModuleCJS = require('./parser.demo.require.cache.test.file.cjs');
-const someModuleJS = require('./parser.demo.require.cache.test.file.js');
+const someModuleCJS = require('./file.cjs');
+const someModuleJS = require('./file.js');
 const acorn = require("chai");
 const parser = require("../index.js");
 
